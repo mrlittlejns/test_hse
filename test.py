@@ -7,7 +7,7 @@ from selenium.webdriver.remote.webelement import WebElement
 
 driver = webdriver.Chrome(r"C:\Users\mrnex\Downloads\chromedriver_win32\chromedriver.exe")
 driver.maximize_window()
-
+print ('alohadance')
 pages = 7 #количество страниц. по сути цифра, определяющая сколько раз будет проходить цикл for page in range
 links = []
 total = []
